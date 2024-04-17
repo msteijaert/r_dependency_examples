@@ -1,0 +1,21 @@
+Package: package1
+Type: Package
+Title: This package has a valid structure, but does not contain any useful code.
+Version: 1.0.0
+Date: 2024-04-1
+Author: Me
+Maintainer: Me <me@mydomain.org>
+Description: This package does absolutely nothing
+License: Apache-2.0
+SystemRequirements: blender
+Imports:
+    data.table,
+    package2,
+    package3,
+    shinyproxy
+RoxygenNote: 7.3.1
+Remotes:
+    package2=local::./package2,
+    package3=local::./package3_1.0.0.tar.gz,
+    shinyproxy=github::openanalytics/shinyproxy-demo/shinyproxy
+    

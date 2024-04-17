@@ -1,0 +1,14 @@
+Package: package3
+Type: Package
+Title: This package has a valid structure, but does not contain any useful code.
+Version: 1.0.0
+Date: 2024-04-1
+Author: Me
+Maintainer: Me <me@mydomain.org>
+Description: This package does absolutely nothing
+License: Apache-2.0
+SystemRequirements: berkeley db
+Imports:
+    curl
+RoxygenNote: 7.3.1
+
