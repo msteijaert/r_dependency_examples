@@ -12,10 +12,10 @@ Imports:
     data.table,
     package2,
     package3,
-    shinyproxy
+    euler
 RoxygenNote: 7.3.1
 Remotes:
     package2=local::./package2,
     package3=local::./package3_1.0.0.tar.gz,
-    shinyproxy=github::openanalytics/shinyproxy-demo/shinyproxy
+    euler=github::openanalytics/shinyproxy-demo/euler
     
